@@ -1,0 +1,12 @@
+{
+  "homepage": "https://github.com/tig3rninja14/testMod",
+  "1.12.2": {
+    "0.1": "Initial Creation on github",
+    "0.1.1": "Implemented update.json & dependency fixes" 
+   },
+  
+  "promos": {
+    "1.12.2-latest": "0.1.1",
+    "1.12.2-recommended": "0.1"
+  }
+}
