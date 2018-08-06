@@ -1,5 +1,7 @@
 package com.tiger.testMod;
 
+import java.io.File;
+
 import com.tiger.testMod.gen.OreGen;
 import com.tiger.testMod.init.ModBlocks;
 import com.tiger.testMod.init.ModItems;
@@ -37,6 +39,10 @@ public class Main {
 	@Mod.EventHandler
 	public static void PreInit(FMLPreInitializationEvent event)
 	{
+		//Adds the config folder for user editing of mod options
+		File cfgFolder = event.getModConfigurationDirectory();
+		cfgFolder = new File(cfgFolder, "testMod");
+		
 		System.out.println(Reference.MOD_ID + ":preInit");
 		ModItems.init();
 		ModBlocks.init();
