@@ -19,7 +19,6 @@ public class Main {
 	public static Main instance;
 	
 	
-	//not really sure what proxy is yet
 	@SidedProxy(clientSide = Reference.CLIENT_PROXY_CLASS, serverSide = Reference.COMMON_PROXY_CLASS)
 	public static CommonProxy proxy;
 	
