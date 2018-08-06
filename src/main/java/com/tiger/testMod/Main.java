@@ -18,7 +18,14 @@ import net.minecraftforge.fml.common.event.FMLPostInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
 import net.minecraftforge.fml.common.registry.GameRegistry;
 
-@Mod(modid = Reference.MOD_ID, name = Reference.NAME, version = Reference.VERSION, dependencies = Reference.DEPENCIES, updateJSON = Reference.UPDATE_JSON)
+@Mod
+(
+	modid = Reference.MOD_ID,
+	name = Reference.NAME,
+	version = Reference.VERSION,
+	dependencies = Reference.DEPENCIES,
+	updateJSON = Reference.UPDATE_JSON
+)
 public class Main {
 	
 	
