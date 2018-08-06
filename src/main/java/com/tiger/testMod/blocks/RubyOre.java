@@ -6,6 +6,7 @@ import com.tiger.testMod.init.ModItems;
 
 import net.minecraft.block.SoundType;
 import net.minecraft.block.material.Material;
+import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.item.Item;
 
 public class RubyOre extends BlockOreBase{
@@ -20,5 +21,6 @@ public class RubyOre extends BlockOreBase{
 		setHarvestLevel("pickaxe",2);
 		setLightLevel(0.0F);
 		setLightOpacity(0);
+		setCreativeTab(CreativeTabs.BUILDING_BLOCKS);
 	}
 }

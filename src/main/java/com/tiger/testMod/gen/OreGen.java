@@ -19,7 +19,7 @@ import net.minecraftforge.fml.common.IWorldGenerator;
 public class OreGen implements IWorldGenerator{
 	
 	
-	private int blockAmount = 4;
+	private int blockAmount = 6;
 	private int chancesToSpawn = 100;
 	private int minHeight = 0;
 	private int maxHeight = 120;
