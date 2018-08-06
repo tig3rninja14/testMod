@@ -29,8 +29,8 @@ import net.minecraftforge.fml.common.registry.GameRegistry;
 public class Main {
 	
 	
-	@Instance
-	public static Main instance;
+	@Mod.Instance
+	public static Main instance = null;
 	
 	
 	@SidedProxy(clientSide = Reference.CLIENT_PROXY_CLASS, serverSide = Reference.COMMON_PROXY_CLASS)
