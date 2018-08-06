@@ -10,8 +10,6 @@ import com.tiger.testMod.util.Reference;
 import net.minecraftforge.common.ForgeVersion;
 import net.minecraftforge.fml.common.Loader;
 import net.minecraftforge.fml.common.Mod;
-import net.minecraftforge.fml.common.Mod.EventHandler;
-import net.minecraftforge.fml.common.Mod.Instance;
 import net.minecraftforge.fml.common.SidedProxy;
 import net.minecraftforge.fml.common.event.FMLInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPostInitializationEvent;
@@ -36,21 +34,21 @@ public class Main {
 	@SidedProxy(clientSide = Reference.CLIENT_PROXY_CLASS, serverSide = Reference.COMMON_PROXY_CLASS)
 	public static CommonProxy proxy;
 	
-	@EventHandler
+	@Mod.EventHandler
 	public static void PreInit(FMLPreInitializationEvent event)
 	{
 		System.out.println(Reference.MOD_ID + ":preInit");
 		ModItems.init();
 		ModBlocks.init();
 	}
-	@EventHandler
+	@Mod.EventHandler
 	public static void init(FMLInitializationEvent event)
 	{
 		System.out.println(Reference.MOD_ID + ":init");
 		ModRecipes.init();
 		GameRegistry.registerWorldGenerator(new OreGen(), 0);
 	}
-	@EventHandler
+	@Mod.EventHandler
 	public static void Postinit(FMLPostInitializationEvent event)
 	{
 		System.out.println(Reference.MOD_ID + ":postInit");
