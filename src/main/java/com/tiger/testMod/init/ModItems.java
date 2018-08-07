@@ -1,8 +1,5 @@
 package com.tiger.testMod.init;
 
-import java.util.ArrayList;
-import java.util.List;
-
 import com.tiger.testMod.items.ItemBase;
 import com.tiger.testMod.items.armor.ArmorBase;
 import com.tiger.testMod.items.tools.ToolAxe;

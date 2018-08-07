@@ -1,7 +1,5 @@
 package com.tiger.testMod.blocks;
 
-import java.util.Random;
-
 import com.tiger.testMod.init.ModItems;
 
 import net.minecraft.block.SoundType;

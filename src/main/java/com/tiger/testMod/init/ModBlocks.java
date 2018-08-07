@@ -1,10 +1,5 @@
 package com.tiger.testMod.init;
 
-import java.util.ArrayList;
-import java.util.List;
-
-import com.tiger.testMod.blocks.BlockBase;
-import com.tiger.testMod.blocks.BlockOreBase;
 import com.tiger.testMod.blocks.RubyBlock;
 import com.tiger.testMod.blocks.RubyOre;
 import com.tiger.testMod.util.Reference;
