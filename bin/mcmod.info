@@ -1,0 +1,18 @@
+[
+{
+  "modid": "tm",
+  "name": "Test Mod",
+  "description": "A mod that really isn't sure what it is",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "https://github.com/tig3rninja14/testMod",
+  "updateUrl": "https://github.com/tig3rninja14/testMod/blob/update_checker/src/main/resources/update.json",
+  "authorList": ["tiger", "energy"],
+  "credits": "Thank you for all the support",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": [
+     "mod_MinecraftForge"
+  ]
+}
+]
