@@ -2,8 +2,6 @@ package com.tiger.testMod.init;
 
 import com.tiger.testMod.util.Reference;
 
-import net.minecraft.init.Blocks;
-import net.minecraft.init.Items;
 import net.minecraft.item.ItemStack;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.registry.GameRegistry;
