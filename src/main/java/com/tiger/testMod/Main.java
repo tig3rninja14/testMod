@@ -54,8 +54,6 @@ public class Main {
 		System.out.println(Reference.MOD_ID + ":postInit");
 		//Checking the version check results
 		//System.out.println(ForgeVersion.getResult(Loader.instance().activeModContainer()).status);
-		//comment
-		//SUP EVAN????
 	}
 	
 }
